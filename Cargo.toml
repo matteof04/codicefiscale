@@ -1,0 +1,18 @@
+[package]
+name = "codicefiscale"
+authors = ["Matteo Franceschini"]
+version = "0.1.0"
+edition = "2021"
+description = "A simple yet complete calculator for italian fiscal code"
+license = "BSD-3-Clause-Clear"
+
+[dependencies]
+chrono = "0.4.31"
+clap = { version = "4.4.10", features = ["derive"] }
+clap_complete = "4.4.6"
+diesel = { version = "2.1.4", features = ["sqlite"] }
+diesel_migrations = { version = "2.1.0", features = ["sqlite"] }
+lazy_static = "1.4.0"
+serde = { version = "1.0.193", features = ["derive"] }
+serde_json = "1.0.108"
+thiserror = "1.0.50"
