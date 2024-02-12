@@ -1,7 +1,7 @@
 /*
  * Copyright (c) 2024 Matteo Franceschini
  * All rights reserved.
- * 
+ *
  * Use of this source code is governed by BSD-3-Clause-Clear
  * license that can be found in the LICENSE file
  */
@@ -9,7 +9,7 @@
 //! A library with useful functions to calculate a person's fiscal code, the italian equivalent of the social security number.
 //! ## Usage
 //! To use this library, a database populated with all the italian cities and all the nations is needed.\
-//! To build one, download `gi_comuni.json` and `gi_nazioni.json` from here, place them in the root directory of the project and call [db_utils::populate_db]
+//! To build one, download `gi_comuni.json` and `gi_nazioni.json` from [here](https://www.gardainformatica.it/database-comuni-italiani), place them in the root directory of the project and call [db_utils::populate_db]
 use chrono::{Datelike, Month, NaiveDate};
 
 use clap::ValueEnum;
